@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Lora:wght@600&family=Noto+Sans+Lao:wght@500&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://w0.peakpx.com/wallpaper/421/437/HD-wallpaper-plain-purple-background-purple.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 43px;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 100%;
+    z-index: 5;
+}
+
+nav h2{
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+span{
+    color: rgb(0, 255, 255);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+    margin-bottom: 32px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+    
+}
+
+nav ul li a:hover{
+    color: rgb(195, 0, 255);
+    transition: .4s;
+}
+
+.detail{
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.detail h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.detail span {
+    color: rgb(195, 0, 255);
+}
+
+.detail p {
+    color: rgb(0, 255, 255);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(38, 0, 68);
+}
+
+.about img{
+    width: 350px;
+    height: max-content;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.amain{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.about-text h2{
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: antiquewhite;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.skill{
+    background-color: rgb(62, 1, 119);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: wheat;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: black;
+}
+
+.card h5{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: black;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(73, 2, 139);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 60px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact i{
+    font-size: 40px;
+    padding: 60px;
+    color: aqua;
+}
+
+.contact i:hover{
+    color: blueviolet;
+}
